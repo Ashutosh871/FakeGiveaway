@@ -4,7 +4,7 @@ from discord.ext import commands
 import asyncio
 from dotenv import load_dotenv
 load_dotenv()
-TOKEN=os.getenv("token")
+TOKEN="OTM3OTYwMTA0OTk5OTIzNzMy.YfjVaw.LS4Y-W9czxTj5VYk3YhhzrmXMEI"
 bot = commands.Bot(command_prefix=">", case_sensitive=False)
 bot.remove_command("help")
 @bot.event
